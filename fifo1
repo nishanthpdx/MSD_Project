@@ -1,0 +1,84 @@
+
+#include<iostream>
+#include<queue>
+
+
+  class Bank
+    {
+      public:
+        int row_address;
+        int column_address;
+    }
+
+
+int main(){
+    bool Active_high=true;
+    bool Active_low=false;
+    bool Read_low=false;
+    bool Read_high=true;
+    bool Activate;
+    bool Read;
+    int i,request=0, number_of_memory_requests=20;
+
+/////////////////////Main declarations/////////
+    std::queue<int> memory_requests;
+std::cout<<"Please enter number of Resquests";
+
+
+        for(request=0;request<number_of_memory_requests;request++)
+        {
+        std::cin>>request;
+        memory_requests.push(request);
+        std::cout<<Processing Memory request' '<<memory_requests.front();
+
+      if(request=number_of_memory_requests -1)
+        {
+        cout<<"Buffer full no more requests are accepted";
+        }
+      else
+        {
+        cin>>row_address;
+        cin>>column_address;
+        Bank.request.row_address;         //initiate bank n instance
+        rowaddress_maping(row_address);
+        Bank.request.column_address;///function cal;
+  cout<<"Please enter Memory Requests";
+                cin>>Activate;                       //for request 1
+                //add wait states
+                cin>>Activate;                       //for request 2
+                //add wait states
+                cin>>Read;                           //for request 1
+                //add wait states
+                cin>>Read;                           //for request 2
+        }
+
+int rowaddress_mapping(row_address)
+        {
+        if(Activate ==true)
+        {
+
+        //Code of row_acess and read
+
+
+        }
+
+       else
+        {
+        else
+        {
+        exit
+        }
+       }
+int columnaddress_mapping(column_address)
+        {
+        if(Read==true)
+        {
+       //code for column acces and read
+        }
+        else
+        {
+        exit;
+        }
+        }
+
+
